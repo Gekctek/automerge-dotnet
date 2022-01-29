@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
+    <AssemblyName>Automerge.$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>Automerge.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <UserSecretsId>7beb6b70-243d-47cd-b226-9046b8588e6f</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+		<PackageReference Include="System.Memory" Version="4.5.4" />
+		<PackageReference Include="System.Text.Json" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CLibrary\CLibrary.csproj" />
+  </ItemGroup>
+
+</Project>

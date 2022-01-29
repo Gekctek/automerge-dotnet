@@ -1,2 +1,1 @@
-# automerge-dotnet
-Automerge for .Net
+# ForgetIt
